@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		
+		<!-- TITLE OF PRESENTATION -->
+		<title>Prototyping as Inquiry | Union College | 5 June 2015 | Jentery Sayers</title>
+		
+		<!-- DESCRIPTION OF PRESENTATION  -->
+		<meta name="description" content="2015, Union College, 5 June 2015">
+		
+		<!-- AUTHOR --> 
+		<meta name="author" content="Jentery Sayers">
+		
+		<!-- RESPONSIVE DESIGN -->
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		
+		<!-- CSS FOR THE FRAMEWORK -->
+		<link rel="stylesheet" href="css/reveal.min.css">
+		
+		<!-- CSS FOR PRESENTATION CONTENT -->
+		<link rel="stylesheet" href="css/theme.css" id="theme">
+	
+		<!-- CSS FOR SYNTAX HIGHLIGHTING -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+		
+		<!-- OUTPUTTING IN PDF (doesn't work that well, to be honest) -->
+		<script>
+			document.write( '<link rel="stylesheet" href="css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
+		</script>
+	</head>
+	
+	<!-- BEGIN SLIDEDECK -->
+	
+	<body>
+		<div class="reveal">
+		<div class="slides">
+		<!-- BEGIN SLIDES -->	
+
+	<section id="title" data-background="images/title.jpg">
+  	<h1>Prototyping as Inquiry</h1>
+  	<h3>Jentery Sayers | UVic | @jenterysayers | maker.uvic.ca<br>Union College | Engineering and Liberal Education | 5 June 2015<br>uvicmakerlab.github.io/union</h3>
+  	</section>
+
+  	<section id="credits" data-background="images/titlealpha.jpg">
+  	<h1>Researchers at UVic</h1>
+  	<h3>Nina Belojevic, Nicole Clouston, Katherine Goertz,  Shaun Macpherson, Katie McQueston, Danielle Morgan, and Jentery Sayers</h3>
+  	<h3>Maker Lab in the Humanities + Digital Fabrication Lab at UVic</h3>
+  	</section> 
+
+  	<section id="hutchins" class="transparent" data-background="images/1a.jpg">
+  	</section>
+
+  	<section id="liss" class="transparent" data-background="images/1b.jpg">
+  	</section>
+
+  	<section id="wada" class="transparent" data-background="images/1c.jpg">
+  	</section>
+
+  	<section id="wearables" class="transparent" data-background="images/2.jpg">
+  	</section>
+
+  	<section id="mechs" class="transparent" data-background="images/3.jpg">
+  	</section>
+
+  	<section id="stick" class="transparent" data-background="images/4.jpg">
+  	</section>
+
+  	<section id="drill" class="transparent" data-background="images/5.jpg">
+  	</section>
+
+  	<section id="signature" class="transparent" data-background="images/6.jpg">
+  	</section>
+
+	<section id="box" class="transparent" data-background="images/7.jpg">
+    </section> 
+
+    <section id="replica" class="transparent" data-background="images/9.jpg">
+  	</section>
+
+	<section id="parts" class="transparent" data-background="images/10.jpg">
+  	</section>
+
+  	<section id="hands" class="transparent" data-background="images/11.jpg">
+  	</section>
+
+  	<section id="github" class="transparent" data-background="images/12.jpg">
+  	</section>
+
+  	<section id="pinion" class="transparent" data-background="images/13.jpg">
+  	</section>
+
+  	<section id="models" class="transparent" data-background="images/14.jpg">
+  	</section>
+
+  	<section id="microscope" class="transparent" data-background="images/15.jpg">
+  	</section>
+
+  	<section id="lights" class="transparent" data-background="images/16.jpg">
+  	</section>
+
+  	<section id="guide" class="transparent" data-background="images/17.jpg">
+  	</section>
+
+  	<section id="instructions" class="transparent" data-background="images/18.jpg">
+  	</section>
+
+      <section id="thanks" data-background="images/thanks.jpg"><h1>Thank You</h1>
+      <h3>Jentery Sayers | UVic | @jenterysayers | maker.uvic.ca</h3>
+      <h3>Special thanks to Christine Henseler and John Rieffel</h3><h3>The Kits are supported by the Social Sciences and Humanities<br>Research Council, the Canada Foundation for Innovation,<br>and the British Columbia Knowledge Development Fund</h3>
+      </section> 
+
+		<!-- Close slides div-->
+		</div>
+		<!-- END SLIDES--> 
+		
+		<!-- BEGIN TRANSITION AND NAVIGATION STYLES / FEATURES --> 
+		
+	<!-- initialize reveal.js + related javascripts --> 
+	
+	<script src="lib/js/head.min.js"></script>
+	<script src="js/reveal.min.js"></script>
+	<script>			
+	Reveal.initialize({
+        
+    // Display controls in the bottom right corner
+    controls: false,
+
+    // Display a presentation progress bar
+    progress: true,
+
+    // Push each slide change to the browser history
+    history: true,
+
+    // Enable keyboard shortcuts for navigation
+    keyboard: true,
+
+    // Enable touch events for navigation
+    touch: true,
+    
+    // Enable an annoying rollover effect for links 
+    rollingLinks: false,
+
+    // Enable the slide overview mode
+    overview: true,
+
+    // Vertical centering of slides
+    center: true,
+
+    // Loop the presentation
+    loop: false,
+
+    // Change the presentation direction to be RTL
+    rtl: false,
+
+    // Number of milliseconds between automatically proceeding to the next slide, disabled when set to 0, this value can be overwritten by using a data-autoslide attribute on your slides
+    autoSlide: 0,
+
+    // Enable slide navigation via mouse wheel
+    mouseWheel: false,
+
+    // Transition style
+    transition: 'none', // default/cube/page/concave/zoom/linear/fade/none
+
+    // Transition speed
+    transitionSpeed: 'fast', // default/fast/slow
+
+    // Transition style for full page backgrounds
+    backgroundTransition: 'none', // default/linear/none
+        
+    // Optional libraries used to extend reveal.js | affords syntax highlighting + editing, zoom, speaker notes, and markdown
+		dependencies: [
+		{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+		{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+		{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+		{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+		{ src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+		{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+		]
+			});
+	</script>	
+	</body>
+	<!-- END SLIDEDECK--> 	
+</html>
